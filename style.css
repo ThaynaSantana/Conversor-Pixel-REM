@@ -1,0 +1,92 @@
+body {
+    background-color: rgb(37, 37, 117);
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    margin: 80px auto;
+    width: 600px;
+    padding: 40px;
+    box-shadow: 0px 10px 40px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: end;
+    gap: 20px;
+}
+
+.submenu {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    font-size: 2rem;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.732);
+}
+
+footer {
+    display: flex;
+
+}
+
+#submit {
+    background-color: orange;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    padding: 10px 30px;
+    font-weight: bold;
+}
+
+/* Removendo o scroll do input number */
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+}
+
+h1 {
+    color: orange;
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.455);
+    font-size: 2.4rem;
+}
+
+label {
+    font-size: 1.6rem;
+    color: gray;
+}
+
+#swap {
+    height: 70px;
+    border: none;
+    background-color:  darkorange;
+    border-radius: 25px;
+}
+
+#swap:hover {
+    background-color:  rgb(240, 108, 14);
+}
+
+footer{
+    display: flex;
+    justify-content: right;
+    width: 100%;
+}
